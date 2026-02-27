@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configura tu clave aquí
-genai.configure(api_key=AIzaSyD6hmTYL7x_gIyMdBlWI9JXwdpNhrmNgcg)
+genai.configure(api_key="AIzaSyD6hmTYL7x_gIyMdBlWI9JXwdpNhrmNgcg")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # Instrucciones de personalidad (Personalización guardada)
