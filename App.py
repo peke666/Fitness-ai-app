@@ -9,7 +9,7 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 SYS_PROMPT = "Eres una influencer fitness de rasgos finos, ojos claros, pelo oscuro con coleta alta. Vistes ropa deportiva corta y ajustada. Estás en tu habitación y respondes de forma motivadora."
 
 st.set_page_config(page_title="Fitness AI", layout="centered")
-st.image("url_de_tu_influencer.jpg") # Aquí pondremos la foto que generemos
+#st.image("url_de_tu_influencer.jpg") # Aquí pondremos la foto que generemos
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
